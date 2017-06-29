@@ -126,6 +126,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
 
+# This is Jesusnagler
+PRODUCT_COPY_FILES += \
+    vendor/Jesusnagler/PixelLauncherBlack.apk:system/app/PixelLauncherBlack.apk
+    
 # T-Mobile theme engine
 include vendor/cm/config/themes_common.mk
 
@@ -142,6 +146,10 @@ PRODUCT_PACKAGES += \
     libemoji \
     Terminal
 
+# Jesusnagler packages
+PRODUCT_PACKAGES += \
+    PixelLauncher.apk
+    
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Launcher3 \
